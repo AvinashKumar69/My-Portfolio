@@ -6,10 +6,14 @@ const IntroContent = () => {
     <Stack
       width={["100%", "50%"]}
       justifyContent={"center"}
-      order={[2, 1]}
+      // order={[2, 1]}
       p={5}
     >
-      <Text as="b" fontSize={["3xl", "4xl"]} textAlign={["center", "left"]}>
+      <Text
+        as="b"
+        fontSize={["3xl", "4xl", "5xl"]}
+        textAlign={["center", "left"]}
+      >
         Hi, I'm Avinash Kumar
       </Text>
       <Text fontSize={["md", "lg"]} textAlign={["center", "left"]}>

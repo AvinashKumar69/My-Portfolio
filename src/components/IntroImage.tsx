@@ -8,7 +8,13 @@ import Dev3 from "../assets/developer4.svg";
 import Dev4 from "../assets/developer5.svg";
 import Dev5 from "../assets/developer6.svg";
 
-const images: string[] = [Dev1, Dev2, Dev3, Dev4, Dev5];
+const images: string[] = [
+  Dev1,
+  // Dev2,
+  // Dev3,
+  // Dev4,
+  // Dev5
+];
 
 const IntroImage = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -27,7 +33,7 @@ const IntroImage = () => {
       height={["400px", "600px"]}
       alignItems={"center"}
       justifyContent={"center"}
-      order={[1, 2]}
+      // order={[1, 2]}
     >
       <AnimatePresence exitBeforeEnter>
         <motion.div
