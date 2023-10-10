@@ -3,7 +3,11 @@ import { skills } from "../helpers/SkillData";
 
 const SkillWithLogo = () => {
   return (
-    <SimpleGrid columns={[2, 3, 4, 5]} spacing={"40px"}>
+    <SimpleGrid
+      columns={[2, 3, 4, 5]}
+      spacing={"40px"}
+      id="skill_skillWithLogo"
+    >
       {skills?.map((skill, index: number) => (
         <Box
           key={String(index)}

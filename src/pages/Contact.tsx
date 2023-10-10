@@ -23,6 +23,7 @@ const Contact = () => {
       alignItems={"center"}
       justifyContent={"space-evenly"}
       mt={20}
+      id="contact"
     >
       <Box>
         <Image
@@ -106,9 +107,13 @@ const Contact = () => {
                   </Button>
                 </Stack>
               </Box>
-              <Box>
-                <Heading size="sm" textTransform="uppercase">
-                  @AvinashKumar
+              <Box fontFamily={"cursive"}>
+                <Heading
+                  size="sm"
+                  fontFamily={"cursive"}
+                  textTransform="uppercase"
+                >
+                  This site belongs to Avinash Kumar.
                 </Heading>
                 <Text pt="2" fontSize="md">
                   All rights reserved, 2023 & onwards.

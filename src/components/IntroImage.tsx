@@ -6,15 +6,8 @@ import Dev1 from "../assets/developer2.svg";
 import Dev2 from "../assets/developer3.svg";
 import Dev3 from "../assets/developer4.svg";
 import Dev4 from "../assets/developer5.svg";
-import Dev5 from "../assets/developer6.svg";
 
-const images: string[] = [
-  Dev1,
-  // Dev2,
-  // Dev3,
-  // Dev4,
-  // Dev5
-];
+const images: string[] = [Dev1, Dev2, Dev3, Dev4];
 
 const IntroImage = () => {
   const [currentIndex, setCurrentIndex] = useState<number>(0);

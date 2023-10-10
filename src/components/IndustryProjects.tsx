@@ -16,7 +16,11 @@ import { FaCheckCircle, FaWrench } from "react-icons/fa";
 
 const IndustryProjects = () => {
   return (
-    <SimpleGrid columns={[1, 1, 2]} spacing={"40px"}>
+    <SimpleGrid
+      columns={[1, 1, 2]}
+      spacing={"40px"}
+      id="projects_industryProjects"
+    >
       {/* *** */}
       <Card bg={"#1a1664"} borderBottom={"3px solid #fff"}>
         <CardHeader color={"#fff"}>

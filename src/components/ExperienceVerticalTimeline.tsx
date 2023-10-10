@@ -10,7 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const ExperienceVerticalTimeline = () => {
   return (
-    <Box mt={20} mb={20}>
+    <Box mt={20} mb={20} id="experience_verticalTimeline">
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
